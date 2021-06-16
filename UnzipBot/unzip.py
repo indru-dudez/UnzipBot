@@ -4,7 +4,7 @@ from Data import Data
 
 
 # On Files
-@pyrogram.Client.on_message(pyrogram.filters.command(["unzip", "unzip@SINNER_UP_bot"]))
+@Client.on_message(filters.document & filters.private & ~filters.edited & filters.incoming)
 async def unzip_files(unzipbot, msg):
     file_name = msg.document.file_name
     if file_name.endswith(('.zip', '.rar')):
