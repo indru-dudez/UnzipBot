@@ -106,8 +106,8 @@ This is bit fast but only recommended for larger files as smaller files won't ha
             InlineKeyboardButton("What are Modes ❔", callback_data="modes"),
             InlineKeyboardButton("📤 About 📤", callback_data="about"),
         ],
-        [InlineKeyboardButton("How to Use me ⁉️", callback_data="help")],
-        [InlineKeyboardButton("Create your own bot", callback_data="deploy")],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
+        #[InlineKeyboardButton("How to Use me ⁉️", callback_data="help")],
+        #[InlineKeyboardButton("Create your own bot", callback_data="deploy")],
+        #[InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
+        #[InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
     ]
